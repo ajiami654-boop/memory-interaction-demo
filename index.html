@@ -1798,7 +1798,7 @@ button { font-family: inherit; border: none; background: none; cursor: pointer; 
 .pm-editor-area h3 { margin: 0 0 var(--fd-padding); color: var(--color-text); font-size: var(--fd-font-size); }
 .pm-editor-area h3:not(:first-child) { margin-top: var(--fd-padding-layout-lg); }
 .pm-editor-foot { height: 57px; flex: 0 0 57px; display: flex; align-items: center; justify-content: flex-end; gap: var(--fd-padding-layout-sm); padding: 0 var(--fd-padding-layout); border-top: 1px solid var(--color-border-secondary); }
-.pm-toast { position: absolute; top: 16px; left: 50%; z-index: 110; min-width: 180px; min-height: 40px; padding: 9px 16px;
+.pm-toast { position: absolute; top: 16px; left: 50%; z-index: 110; width: fit-content; max-width: 360px; min-height: 40px; padding: 9px 16px;
   display: flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid var(--color-border-secondary);
   border-radius: var(--fd-border-radius-lg); color: var(--color-text); background: var(--color-bg-container); box-shadow: var(--fd-box-shadow-secondary);
   font-size: 14px; line-height: 22px; opacity: 0; transform: translate(-50%, -12px); transition: opacity .2s ease, transform .2s ease; pointer-events: none; }
