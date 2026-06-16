@@ -2390,7 +2390,7 @@ button { font-family: inherit; border: none; background: none; cursor: pointer; 
   document.querySelector('#pmUndo').addEventListener('click', () => {
     document.querySelector('#pmFinalContent').innerHTML = pmOldContent;
     pmSetState('document');
-    pmToast('已撤销本次更新');
+    pmToast('已撤销');
   });
   document.querySelector('#pmEdit').addEventListener('click', () => pmSetState('editing'));
   document.querySelector('#pmCancelEdit').addEventListener('click', () => { pmHideConfirm(); pmSetState('review'); });
